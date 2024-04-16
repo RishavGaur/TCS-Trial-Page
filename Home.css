@@ -1,0 +1,165 @@
+::-webkit-scrollbar {
+    width: .3rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(103, 100, 100);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: darkslategray;
+    border: .3rem solid transparent;
+    border-radius: .2rem;
+}
+
+#img_over1{
+    position: absolute;
+    top:.01px;
+    height: 300px;
+    width: 253.46px;
+    background: rgba(103, 100, 100, 0.7);
+    border-radius: 20px;
+}
+
+#img_over2{
+    position: absolute;
+    top:.01px;
+    padding-left: 20px;
+    height: 300px;
+    width: 255px;
+    background: rgba(103, 100, 100, 0.7);
+    border-radius: 20px;
+}
+#img_over3{
+    position: absolute;
+    top:.01px;
+    padding-left: 20px;
+    height: 300px;
+    width: 255px;
+    background: rgba(103, 100, 100, 0.7);
+    border-radius: 20px;
+}
+.img_over {
+    position: absolute;
+    top:.01px;
+    height: 300px;
+    width: 253.46px;
+    background: rgba(103, 100, 100, 0.7);
+    border-radius: 20px;
+}
+
+.info_head1{
+    color: rgb(255, 218, 149);
+    padding-left: 200rem;
+    padding-top: 120px;
+}
+
+.info_head2{
+    color: rgb(255, 218, 149);
+    padding-left:130px;
+    padding-top: 120px;
+}
+
+.info_head3{
+    color: rgb(255, 218, 149);
+    padding-left: 200rem;
+    padding-top: 130px;
+}
+
+.info {
+    text-align: justify;
+}
+
+.edit {
+    border-radius: 20px;
+}
+/*.name{
+    position:absolute;
+    padding-bottom:5px;
+} */
+.t-color {
+    color: white;
+    text-align: justify;
+}
+
+/* Company Name */
+.nav_head {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.nav_head:hover {
+    color: cadetblue;
+}
+
+.heading {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 20rem;
+}
+
+.content {
+    font-family: 'EB Garamond', serif;
+    font-size: larger;
+}
+
+
+.hv{
+    transition: 1s;
+}
+.hv:hover{
+    transform: scale(1.3);
+}
+
+input {
+    border-bottom: 2px;
+}
+
+/* Position Fixing */
+
+#img1 {
+    padding-left: 60px;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    top: 10px;
+    padding-left: 10px;
+}
+
+#img2 {
+    position: relative;
+}
+
+.name2 {
+    position: absolute;
+    top: 1px;
+    padding-left: 80px;
+}
+
+#img3 {
+    position: relative;
+}
+
+.name3 {
+    position: absolute;
+    top: 10px;
+    margin-left: -40px;
+
+}
+input:focus,textarea:focus{
+    outline: none;
+}
+/* .label_posit{
+    text-align: right;
+} */
+/* .extra{
+    width:100%;
+   outline:none;
+   border: 1px solid #D071F9;
+   font-size:15px;
+   padding:5px 5px;
+   border-radius:3px;
+   transition: all 0.5s ease;
+} */
